@@ -1,0 +1,106 @@
+* {padding: 0;margin: 0;box-sizing: border-box;}
+.App {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  min-height: 600px;
+  margin: 10px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+body {background: #ddf;}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+input, button, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  margin: 15px auto;
+  font-size: 20px;
+  display: block;
+}
+button {
+  background: #1f854d;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+label {
+  font-size: 25px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  border-bottom: 5px solid green;
+}
+
+table {
+  width: 100%;
+}
+tr {
+  background: #e4e4e4;
+}
+td, th{
+  padding: 10px;
+}
+td:last-child {
+  text-align: right;
+}
+
+td>button {
+  width: initial;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  display: inline;
+}
+td.action {
+  text-align: center;
+}
+.bgGreen {background: #1d8649;}
+.bgRed {background: #ff5521;}
+
+
+.home-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-wrap .item {
+  width: 100%;
+  max-width: 350px;
+  background: #d9ffe7;
+  border: none;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.home-wrap .item * {border: none;}
+.home-wrap .item h2 {
+  font-size: 50px;
+  font-weight: 400;
+}
+.home-wrap .item h1 {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 700;
+}
+.home-wrap .item:hover {
+  background: #ffbfbf;
+}
